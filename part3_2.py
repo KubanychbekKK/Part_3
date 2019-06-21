@@ -1,0 +1,5 @@
+words = input().split()
+#print(words)
+words.sort(key=len)
+words = " ".join(words)
+print(words)
